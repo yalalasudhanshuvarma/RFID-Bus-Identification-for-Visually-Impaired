@@ -26,7 +26,7 @@ The code includes logic to read RFID tags and match them to pre-defined tags rep
 - The `setup()` function initializes the LCD and sets up serial communication and LED pins.
 - In the `loop()` function, the system checks for RFID input, matches it to stored tags, and displays the corresponding destination on the LCD.
 
-#### Code Snippet
+### Code Snippet
 Here’s a snippet of the code:
 ```cpp
 #include <LiquidCrystal.h>
@@ -58,17 +58,17 @@ void loop() {
         // Additional tag checks...
     }
 }
-###System Workflow
-- Tag Detection: The RFID reader scans for bus tags.
-- Match Verification: The system matches the scanned tag with predefined tag IDs.
-- Output Display: Upon a match:
-- The destination displays on the LCD.
-- The corresponding LED lights up to indicate detection.
-- Invalid Tag Handling: If no match is found, it displays "Invalid Card."
--Example Output
--Valid Tag: Displays "Bus going to [Destination]" and activates the corresponding LED.
--Invalid Tag: Displays "Invalid Card."
--Future Improvements
--Audio Announcements: Implement audio output for detected destinations.
--Dynamic Updates: Integrate a database to update bus schedules and routes.
--Driver Alerts: Notify drivers of visually impaired passengers waiting at the station.
+System Workflow
+Tag Detection: The RFID reader scans for bus tags.
+Match Verification: The system matches the scanned tag with predefined tag IDs.
+Output Display: Upon a match:
+The destination displays on the LCD.
+The corresponding LED lights up to indicate detection.
+Invalid Tag Handling: If no match is found, it displays "Invalid Card."
+Example Output
+Valid Tag: Displays "Bus going to [Destination]" and activates the corresponding LED.
+Invalid Tag: Displays "Invalid Card."
+Future Improvements
+Audio Announcements: Implement audio output for detected destinations.
+Dynamic Updates: Integrate a database to update bus schedules and routes.
+Driver Alerts: Notify drivers of visually impaired passengers waiting at the station.

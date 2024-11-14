@@ -58,24 +58,17 @@ void loop() {
         // Additional tag checks...
     }
 }
-### System Workflow
-1. **Tag Detection**: The RFID reader scans for bus tags.
-2. **Match Verification**: The system matches the scanned tag with predefined tag IDs.
-3. **Output Display**: Upon a match:
-   - The destination displays on the LCD.
-   - The corresponding LED lights up to indicate detection.
-4. **Invalid Tag Handling**: If no match is found, it displays "Invalid Card."
-
-### Example Output
-- **Valid Tag**: Displays "Bus going to [Destination]" and activates the corresponding LED.
-- **Invalid Tag**: Displays "Invalid Card."
-
-### Future Improvements
-- **Audio Announcements**: Implement audio output for detected destinations.
-- **Dynamic Updates**: Integrate a database to update bus schedules and routes.
-- **Driver Alerts**: Notify drivers of visually impaired passengers waiting at the station.
-
-### References
-YALALA SUDHANSHU VARMA
-### contact
-7396419841
+###System Workflow
+- Tag Detection: The RFID reader scans for bus tags.
+- Match Verification: The system matches the scanned tag with predefined tag IDs.
+- Output Display: Upon a match:
+- The destination displays on the LCD.
+- The corresponding LED lights up to indicate detection.
+- Invalid Tag Handling: If no match is found, it displays "Invalid Card."
+-Example Output
+-Valid Tag: Displays "Bus going to [Destination]" and activates the corresponding LED.
+-Invalid Tag: Displays "Invalid Card."
+-Future Improvements
+-Audio Announcements: Implement audio output for detected destinations.
+-Dynamic Updates: Integrate a database to update bus schedules and routes.
+-Driver Alerts: Notify drivers of visually impaired passengers waiting at the station.
